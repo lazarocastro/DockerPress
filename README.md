@@ -10,17 +10,17 @@ A bordamos aqui a instalação do docker e docker-compose, para usuários que ut
 #### Instalação do Docker
 
 ```sh
-$ sudo apt-get install curl -y  
-$ curl -fsSL get.docker.com -o get-docker.sh  
-$ sudo sh get-docker.sh  
-$ sudo usermod -aG docker $USER
+sudo apt-get install curl -y  
+curl -fsSL get.docker.com -o get-docker.sh  
+sudo sh get-docker.sh  
+sudo usermod -aG docker $USER
 ```
 
 #### Instalação do Docker-Compose
 
 ```sh
-$ sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-$ sudo chmod +x /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 Para maiores detalhes da instalação do docker e docker-compose:
  
@@ -30,9 +30,9 @@ Para maiores detalhes da instalação do docker e docker-compose:
 #### Clonar o repositório e executar o docker-compose
 
 ```sh
-$ git clone git@github.com:lazarocastro/DockerPress.git
-$ cd DockerPress
-$ docker-compose up -d
+git clone git@github.com:lazarocastro/DockerPress.git
+cd DockerPress
+docker-compose up -d
 ```
 
 ## Como Utilizar
